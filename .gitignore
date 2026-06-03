@@ -1,0 +1,37 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+venv/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+
+# ======================
+# FastAPI / general
+# ======================
+*.log
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Docker (optional - usually NOT committed)
+# ======================
+docker-compose.override.yml
